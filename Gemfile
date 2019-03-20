@@ -23,7 +23,7 @@ group :production do
   gem 'pg'
 end
 
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 ruby "1.9.3"
 
 gem 'thin'
@@ -59,3 +59,4 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
 end
+
